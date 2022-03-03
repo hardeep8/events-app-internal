@@ -1,7 +1,7 @@
 var chai = require('chai');
 const request = require('supertest');
 const app = require('../server');
-//specify the url to be intercepted
+//specify the url to be intercepted -added recently
 describe('GET /', function() {
     it('responds with json', function(done) {
       request(app)
