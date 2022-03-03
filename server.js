@@ -23,7 +23,7 @@ app.use(function (req, res, next) {
 })
 
 // mock events data - for a real solution this data should be coming 
-// from a cloud data store
+// from a cloud data store chandan
 const mockEvents = {
     events: [
         { title: 'an event', id: 1, description: 'something really cool' },
