@@ -4,7 +4,7 @@
 // https://www.npmjs.com/package/express
 const express = require('express');
 
-// converts content in the request into parameter req.body
+// converts content in the request into parameter req.body done
 // https://www.npmjs.com/package/body-parser
 const bodyParser = require('body-parser');
 
@@ -23,7 +23,7 @@ app.use(function (req, res, next) {
 })
 
 // mock events data - for a real solution this data should be coming 
-// from a cloud data store
+// from a cloud data store chandan
 const mockEvents = {
     events: [
         { title: 'an event', id: 1, description: 'something really cool' },
